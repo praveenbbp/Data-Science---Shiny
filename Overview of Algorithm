@@ -1,7 +1,7 @@
 
 In brief:
 
-Choose a Data Science algorithm and use Shiny to communicate it. The communication should reveal something about what makes
+Choose a Data Science algorithm and use 'R'-Shiny to communicate it. The communication should reveal something about what makes
 this algorithm special. 
 Create a Shiny App that will serve as a showcase for your model. Here Time series Algorithm using NYSE 
 (New York Stock Exchange) prices has been chosen for data visualization
