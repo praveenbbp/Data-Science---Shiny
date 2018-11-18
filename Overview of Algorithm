@@ -1,3 +1,11 @@
+
+In brief:
+
+Choose a Data Science algorithm and use Shiny to communicate it. The communication should reveal something about what makes
+this algorithm special. 
+Create a Shiny App that will serve as a showcase for your model. Here Time series Algorithm using NYSE 
+(New York Stock Exchange) prices has been chosen for data visualization
+
 1) How to Run this R file?
 
 Before running this file, below libraries needs to be installed
@@ -9,24 +17,22 @@ library(plotly)
 
 
 2) Getting Started
-This tool uses the quantmod package to download and plot weekly stock prices of the NYSE symbol of your choice. Yahoo Finance is the source of closing prices, (Since Google Finance stopped providing results). 
+This tool uses the quantmod package to download and plot weekly stock prices of the NYSE symbol of your choice. 
+Yahoo Finance is the source of closing prices, (Since Google Finance stopped providing results). 
 After choosing your symbol, you can pick a prediction model to forecast 5 days into the future.
 
 2.a) Pick a symbol
 Type the name of your symbol into the box below (e.g.: MSFT, GOOG, AAPL, SBUX), and click "Submit Symbol" to update the plot.
 
 2.b) Pick a Forecast Model
-The three options in the dropdown below are three options for forecast models: ARIMA, Neural Network, and Holt's Exponential Smoothing. Each of these models has its benefits, but the implementation of each is the same in this context. 
+The three options in the dropdown below are three options for forecast models: ARIMA, Neural Network, and 
+Holt's Exponential Smoothing. Each of these models has its benefits, but the implementation of each is the same in this context. 
 Choose your desired model and click the 'Submit Model Selection' button to generate your forecasts.
 
 3) Forecasts from Selected Model
 
 
-The information supplied in this application is strictly informational and is not intended to serve as financial advice in any context whatsoever. 
+The information supplied in this application is strictly informational and is not intended to serve as financial advice
+in any context whatsoever. 
 If you feel that you need investment advice, please consult with a professional.
 
-
-4) In brief:
-
-Choose a Data Science algorithm and use Shiny to communicate it. The communication should reveal something about what makes this algorithm special. 
-Create a Shiny App that will serve as a showcase for your model
