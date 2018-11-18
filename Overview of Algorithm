@@ -1,32 +1,30 @@
-How to Run this R file?
+1) How to Run this R file?
 
 Before running this file, below libraries needs to be installed
 
 library(forecast)
 library(quantmod)In brief:
 
-Choose a Data Science algorithm and use Shiny to communicate it. The communication should reveal something about what makes this algorithm special. Specifically: when the algorithm works well and when the algorithm does not. The deliverable will be a pair of files: ui.R & server.R that I should be able to run and score.
-library(shiny)
-library(plotly)
 
-Getting Started
+
+2) Getting Started
 This tool uses the quantmod package to download and plot weekly stock prices of the NYSE symbol of your choice. Yahoo Finance is the source of closing prices, (Since Google Finance stopped providing results). 
 After choosing your symbol, you can pick a prediction model to forecast 5 days into the future.
 
-Pick a symbol
+2.a) Pick a symbol
 Type the name of your symbol into the box below (e.g.: MSFT, GOOG, AAPL, SBUX), and click "Submit Symbol" to update the plot.
 
-Pick a Forecast Model
+2.b) Pick a Forecast Model
 The three options in the dropdown below are three options for forecast models: ARIMA, Neural Network, and Holt's Exponential Smoothing. Each of these models has its benefits, but the implementation of each is the same in this context. 
 Choose your desired model and click the 'Submit Model Selection' button to generate your forecasts.
 
-Forecasts from Selected Model
+3) Forecasts from Selected Model
 
 
 The information supplied in this application is strictly informational and is not intended to serve as financial advice in any context whatsoever. 
 If you feel that you need investment advice, please consult with a professional.
 
 
-In brief:
+4) In brief:
 
 Choose a Data Science algorithm and use Shiny to communicate it. The communication should reveal something about what makes this algorithm special. 
