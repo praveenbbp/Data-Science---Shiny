@@ -3,8 +3,9 @@
 Before running this file, below libraries needs to be installed
 
 library(forecast)
-library(quantmod)In brief:
-
+library(quantmod)
+library(shiny)
+library(plotly)
 
 
 2) Getting Started
